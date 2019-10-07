@@ -8,10 +8,29 @@
 header{
     border: solid black;
     padding: 20px;
+    grid-area:header;
+}
+
+.row{
+    content: "";
+    display: grid;
+    grid-template-areas:
+    '. sidebar main . ';
+    clear: both;
+}
+.column{
+    grid-area: sidebar;
+    
+}
+.column2{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    grid-area: main;
 }
 
 
-}
+
 
 
 
