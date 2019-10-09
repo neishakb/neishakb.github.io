@@ -15,18 +15,25 @@ header{
     content: "";
     display: grid;
     grid-template-areas:
-    '. sidebar main . ';
+    'sidebar main';
     clear: both;
+    grid-template-columns: 30% 70%;
 }
 .column{
     grid-area: sidebar;
-    
+    background-color: green;
+    margin: 10px 20px 10px 18px;
+}
+
+.profile_picture img{
+    border-radius: 250px;
 }
 .column2{
     float: left;
-    width: 50%;
     padding: 10px;
     grid-area: main;
+    background-color: red;
+    margin: 10px 18px 10px 10px;
 }
 
 
