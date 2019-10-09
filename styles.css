@@ -25,7 +25,7 @@ h2 >.Contact {
 .column{
     grid-area: sidebar;
     background-color: green;
-    margin: 10px 60px 10px 80px;
+    margin: 20px 60px 10px 80px;
 }
 
 .profile_picture img{
@@ -38,12 +38,113 @@ h2 >.Contact {
     padding: 10px;
     grid-area: main;
     background-color: red;
-    margin: 10px 20px 10px 10px;
+    margin: 20px 110px 10px 8px;
+}
+.phone{
+    display:flex;
+    flex-direction: row;
+}
+.phone img{
+    padding: 10px;
+    height: 20px;
+    width: 18px;
+    margin-top:5px;
 }
 
-.hrule{
-    /**font-weight: bold;*/
+.email_icon{
+    display:flex;
+    flex-direction: row;
 }
+.email_icon a{
+    margin-top: 25px;
+}
+.email_icon img{
+    height: 70px;
+    width: 60px;
+    margin-right:5px;
+
+}
+
+.web_icon {
+    display:flex;
+    flex-direction: row;
+}
+.web_icon a{
+    margin-top:15px;
+}
+.web_icon img{
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+
+}
+
+.social_media{
+    padding: 10px;
+
+}
+.facebook{
+    display: flex;
+    flex-direction: row;
+}
+
+.facebook a{
+    margin-top: 19px;
+}
+
+.facebook img{
+    padding: 2px;
+    height: 58px;
+    width: 58px;
+}
+
+.instagram{
+    display: flex;
+    flex-direction: row;
+}
+
+.instagram a{
+    margin-top: 15px;
+    margin-left: 12px;
+}
+
+.instagram img{
+    padding: 2px;
+    height: 38px;
+    width: 38px;
+    margin-left: 6px;
+}
+
+.twitter{
+    display: flex;
+    flex-direction: row;
+}
+
+.twitter a {
+    margin-top: 15px;
+}
+
+.twitter img{
+    padding: 2px;
+    height: 50px; 
+    width: 50px;
+
+}
+.linkedin{
+    display: flex;
+    flex-direction: row;
+}
+.linkedin a {
+    margin-top: 20px;
+}
+.linkedin img{
+    padding: 2px;
+    height: 50px;
+    width: 50px;
+
+}
+
+
 
 
 
