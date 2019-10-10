@@ -1,8 +1,8 @@
 .header {
     padding: 10px;
-    display: flex;
+    display: grid;
     justify-content: center;
-    background-color: blueviolet; 
+    background-color: rgb(86, 224, 224); 
 }
 
 header{
@@ -19,12 +19,13 @@ header{
     clear: both;
     grid-template-columns: 30% 70%;
 }
-h2 >.Contact {
+.Contact h2 {
+    margin-left: 30px;
     font-weight: bold;
 }
 .column{
     grid-area: sidebar;
-    background-color: green;
+    background-color: rgba(95, 99, 95, 0.11);
     margin: 20px 60px 10px 80px;
 }
 
@@ -37,7 +38,7 @@ h2 >.Contact {
     float: left;
     padding: 10px;
     grid-area: main;
-    background-color: red;
+    background-color: rgb(152, 96, 226);
     margin: 20px 110px 10px 8px;
 }
 .phone{
@@ -141,6 +142,48 @@ h2 >.Contact {
     padding: 2px;
     height: 50px;
     width: 50px;
+
+}
+.hrule{
+    padding: 5%;
+}
+.hrule2{
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+
+.hrule3{
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+
+.flex{
+    display: flex;
+}
+
+.flex div{
+    margin-right: 90px;
+}
+
+
+
+.main_content{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    
+}
+
+.workExperience{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+
+.expertise{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+    
 
 }
 
